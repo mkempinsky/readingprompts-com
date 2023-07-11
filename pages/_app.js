@@ -1,4 +1,4 @@
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import {Raleway} from 'next/font/google';
 
 const raleway = Raleway({
