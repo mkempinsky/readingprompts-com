@@ -1,17 +1,10 @@
 import Layout from '../components/Layout';
-import {Raleway} from 'next/font/google';
-
-const raleway = Raleway({
-    weight: ['100', '400', '600', '800'],
-    subsets: ['latin'],
-});
+import Nav from '../components/Nav';
 
 export default function MyApp({Component, pageProps}) {
     return (
         <Layout>
-            <main className={raleway.className}>
-                <Component {...pageProps} />
-            </main>
+            <Component {...pageProps} />
         </Layout>
     );
 }
